@@ -1,0 +1,61 @@
+{
+  "inputs": [
+    {
+      "id":1,
+      "type": "text",
+      "placeholder": "ФИО"
+    },
+    {
+      "id":2,
+      "type": "datepicker",
+      "placeholder": "Дата рождения"
+    },
+    {
+      "id":3,
+      "type": "radio",
+      "placeholder": "Ваш пол",
+      "values": [
+        {
+          "text": "Мужчина",
+          "value": "Man"
+        },
+        {
+          "text": "Женщина",
+          "value": "Femail"
+        }
+      ]
+    },
+    {
+      "id":3,
+      "type": "select",
+      "placeholder": "Город",
+      "values": [
+        { "text": "Ташкент", "value": "Tashkent" },
+        { "text": "Самарканд", "value": "Samarkand" },
+        { "text": "Бухара", "value": "Bukhara" }
+      ]
+    },
+    {
+      "id":4,
+      "type": "select",
+      "placeholder": "Район",
+      "values": [
+        { "text": "Юнусабад", "value": "Yunusabad" },
+        { "text": "Самарканд", "value": "Samarkand" },
+        { "text": "Бухара", "value": "Bukhara" }
+      ]
+    },
+    {
+      "id":5,
+      "type": "email",
+      "placeholder": "email"
+    },
+    {
+      "id":6,
+      "type": "checkbox",
+      "placeholder": "Принятие на обработку данных",
+      "value": "yes"
+    }
+
+  ]
+}
