@@ -17,32 +17,49 @@
       "values": [
         {
           "text": "Мужчина",
-          "value": "Man"
+          "id": "male",
+          "name": "gender"
+
         },
         {
           "text": "Женщина",
-          "value": "Femail"
+          "id": "female",
+          "name": "gender"
         }
       ]
     },
     {
-      "id":3,
+      "id": 4,
       "type": "select",
+      "selector-per-block":3,
       "placeholder": "Город",
       "values": [
+        {"text":"Город", "value": "default"},
         { "text": "Ташкент", "value": "Tashkent" },
         { "text": "Самарканд", "value": "Samarkand" },
         { "text": "Бухара", "value": "Bukhara" }
-      ]
-    },
-    {
-      "id":4,
-      "type": "select",
-      "placeholder": "Район",
-      "values": [
-        { "text": "Юнусабад", "value": "Yunusabad" },
-        { "text": "Самарканд", "value": "Samarkand" },
-        { "text": "Бухара", "value": "Bukhara" }
+      ],
+      "additionSelect":[
+        {
+          "id":1,
+          "placeholder": "Район",
+          "values": [
+            {"text":"Район", "value": "default"},
+            { "text": "Юнусабад", "value": "Tashkent" },
+            { "text": "Самарканд", "value": "Samarkand" },
+            { "text": "Бухара", "value": "Bukhara" }
+          ]
+        },
+        {
+          "id":2,
+          "placeholder": "Улица",
+          "values": [
+            {"text":"Улица", "value": "default"},
+            { "text": "Каландар", "value": "Tashkent" },
+            { "text": "Туркво", "value": "Samarkand" },
+            { "text": "Художника", "value": "Bukhara" }
+          ]
+        }
       ]
     },
     {
@@ -55,7 +72,11 @@
       "type": "checkbox",
       "placeholder": "Принятие на обработку данных",
       "value": "yes"
+    },
+    {
+      "id":7,
+      "type": "checkbox",
+      "placeholder": "Принятие на обработку данных",
+      "value": "yes"
     }
-
-  ]
-}
+  ]}
